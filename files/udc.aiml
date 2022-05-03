@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Ciao! Io sono InfoBotplus e sono qui per aiutarti per l'apprendimento delle basi di C++</template>
+  </category>
+<category>
+    <pattern>come dichiaro una variabile</pattern>
+    <template>Per dichiarare una variabile bisogna dichiarare il tipo e il nome. esempio: int numero
+</template>
+</category>
+<category>
+    <pattern>mi spieghi la funzione rand</pattern>
+    <template>Per la funzione rand bisogna inanzitutto inserire una nuova libreria ovvero: cstdlib.
+
+Per inserire poi il comando bisogna scrivere: rand()% "numero" (inserire un numero a vostra scelta e andrà da 0 a (n-1) </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template>
+<random>
+<li>Ciao sono ArrayBot.<br/>
+Fammi qualche domanda per iniziare</li>
+<li>Sai che prima di scrivere in c++ bisogna inserire: using namespace std</li>
+<li>Se non sai cos'è un vettore,prova a chiedermelo</li>
+<li>Ricordati di inserire dopo ogni stringa il punto e virgola</li>
+</random>
+</template>
+</category>
+
+<category>
+    <pattern>Come inserisco un valore
+</pattern>
+    <template>Per inserire un valore numerico, bisogna utilizzare il comando "cin" e aprire due segni maggiori e inserire il nome della variabile.</template>
+</category>
+<category>
+    <pattern>Come visualizzo un valore</pattern>
+    <template>Per visualizzare un valore bisogna utilizzare il comando "cout" e aprire due segni minori e inserire la variabile in output</template>
+</category>
+<category>
+    <pattern>Cos'è un vettore</pattern>
+    <template>Il vettore possiamo paragonarlo a una scatole divisa in celle, dove si possono salvare dei dati</template>
+</category>
+<category>
+    <pattern>Come dichiaro un vettore</pattern>
+    <template>per dichiarare un vettore bisogna indicarne prima il tipo e il nome e aggiungere in due parentesi quadre (aperte e chiuse) e inserire la grandezza del vettore
+</template>
+</category>
+<category>
+    <pattern>Quanti cicli esistono</pattern>
+    <template>Esistono 3 tipi di cicli: i primi due sono cicli indeterminati ovvero il ciclo while e do while e poi abbiamo il ciclo for che è un ciclo determinato</template>
+</category>
+
+<category>
+    <pattern>come inizio un progetto</pattern>
+    <template>Prima di tutto bisogna dichiarare le librerie da utilizzare; La principale è "iostream"  </template>
+</category>
+<category>
+    <pattern>Cosa è una matrice</pattern>
+    <template>La matrice è una tabella formata da righe e colonne e per dichiararla bisogna indicare il tipo, poi il nome e inserire in due parentesi quadre le righe massime (nel primo) e le colonne massime (nel secondo) </template>
+</category>
+
+</aiml>
